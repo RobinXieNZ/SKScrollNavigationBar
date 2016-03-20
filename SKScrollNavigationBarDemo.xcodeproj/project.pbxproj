@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BE3B1641C9F3B5F004370B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1631C9F3B5F004370B2 /* main.m */; };
-		7BE3B1671C9F3B5F004370B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1661C9F3B5F004370B2 /* AppDelegate.m */; };
-		7BE3B16A1C9F3B5F004370B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1691C9F3B5F004370B2 /* ViewController.m */; };
-		7BE3B16D1C9F3B5F004370B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3B16B1C9F3B5F004370B2 /* Main.storyboard */; };
 		7BE3B16F1C9F3B5F004370B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3B16E1C9F3B5F004370B2 /* Assets.xcassets */; };
-		7BE3B1721C9F3B5F004370B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3B1701C9F3B5F004370B2 /* LaunchScreen.storyboard */; };
 		7BE3B17D1C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B17C1C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests.m */; };
 		7BE3B1881C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1871C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.m */; };
-		7BE3B19B1C9F3BBB004370B2 /* SKScrollNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B19A1C9F3BBB004370B2 /* SKScrollNavigationBar.m */; };
+		7BE3B19D1C9F3C96004370B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE3B19C1C9F3C96004370B2 /* Foundation.framework */; };
+		7BE3B19F1C9F3CA4004370B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE3B19E1C9F3CA4004370B2 /* CoreGraphics.framework */; };
+		7BE3B1A11C9F3CAF004370B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE3B1A01C9F3CAF004370B2 /* UIKit.framework */; };
+		7BE3B1A91C9F3E7E004370B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1A81C9F3E7E004370B2 /* ViewController.m */; };
+		7BE3B1AB1C9F3E88004370B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1AA1C9F3E88004370B2 /* main.m */; };
+		7BE3B1AE1C9F3E92004370B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1AD1C9F3E92004370B2 /* AppDelegate.m */; };
+		7BE3B1B11C9F3E9C004370B2 /* SKScrollNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1B01C9F3E9C004370B2 /* SKScrollNavigationBar.m */; };
+		7BE3B1BB1C9F3F8E004370B2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3B1BA1C9F3F8E004370B2 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +39,24 @@
 
 /* Begin PBXFileReference section */
 		7BE3B15F1C9F3B5F004370B2 /* SKScrollNavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKScrollNavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BE3B1631C9F3B5F004370B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7BE3B1651C9F3B5F004370B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7BE3B1661C9F3B5F004370B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BE3B1681C9F3B5F004370B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7BE3B1691C9F3B5F004370B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7BE3B16C1C9F3B5F004370B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7BE3B16E1C9F3B5F004370B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7BE3B1711C9F3B5F004370B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BE3B1731C9F3B5F004370B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE3B16E1C9F3B5F004370B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SKScrollNavigationBarDemo/Assets.xcassets; sourceTree = "<group>"; };
 		7BE3B1781C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKScrollNavigationBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE3B17C1C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollNavigationBarDemoTests.m; sourceTree = "<group>"; };
 		7BE3B17E1C9F3B5F004370B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BE3B1831C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKScrollNavigationBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE3B1871C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollNavigationBarDemoUITests.m; sourceTree = "<group>"; };
 		7BE3B1891C9F3B5F004370B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BE3B1991C9F3BBB004370B2 /* SKScrollNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKScrollNavigationBar.h; path = SKScrollNavigationBar/SKScrollNavigationBar.h; sourceTree = "<group>"; };
-		7BE3B19A1C9F3BBB004370B2 /* SKScrollNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKScrollNavigationBar.m; path = SKScrollNavigationBar/SKScrollNavigationBar.m; sourceTree = "<group>"; };
+		7BE3B19C1C9F3C96004370B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BE3B19E1C9F3CA4004370B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BE3B1A01C9F3CAF004370B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BE3B1A71C9F3E7E004370B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/Demo/ViewController.h; sourceTree = "<group>"; };
+		7BE3B1A81C9F3E7E004370B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/Demo/ViewController.m; sourceTree = "<group>"; };
+		7BE3B1AA1C9F3E88004370B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/Others/main.m; sourceTree = "<group>"; };
+		7BE3B1AC1C9F3E92004370B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/Delegate/AppDelegate.h; sourceTree = "<group>"; };
+		7BE3B1AD1C9F3E92004370B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/Delegate/AppDelegate.m; sourceTree = "<group>"; };
+		7BE3B1AF1C9F3E9C004370B2 /* SKScrollNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKScrollNavigationBar.h; path = Classes/SKScrollNavigationBar/SKScrollNavigationBar.h; sourceTree = "<group>"; };
+		7BE3B1B01C9F3E9C004370B2 /* SKScrollNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKScrollNavigationBar.m; path = Classes/SKScrollNavigationBar/SKScrollNavigationBar.m; sourceTree = "<group>"; };
+		7BE3B1BA1C9F3F8E004370B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE3B1A11C9F3CAF004370B2 /* UIKit.framework in Frameworks */,
+				7BE3B19F1C9F3CA4004370B2 /* CoreGraphics.framework in Frameworks */,
+				7BE3B19D1C9F3C96004370B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				7BE3B1611C9F3B5F004370B2 /* SKScrollNavigationBarDemo */,
+				7BE3B16E1C9F3B5F004370B2 /* Assets.xcassets */,
 				7BE3B17B1C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests */,
 				7BE3B1861C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests */,
+				7BE3B1A21C9F3CC1004370B2 /* Frameworks */,
 				7BE3B1601C9F3B5F004370B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,15 +112,7 @@
 		7BE3B1611C9F3B5F004370B2 /* SKScrollNavigationBarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7BE3B1951C9F3B67004370B2 /* SKScrollNavigationBar */,
-				7BE3B1651C9F3B5F004370B2 /* AppDelegate.h */,
-				7BE3B1661C9F3B5F004370B2 /* AppDelegate.m */,
-				7BE3B1681C9F3B5F004370B2 /* ViewController.h */,
-				7BE3B1691C9F3B5F004370B2 /* ViewController.m */,
-				7BE3B16B1C9F3B5F004370B2 /* Main.storyboard */,
-				7BE3B16E1C9F3B5F004370B2 /* Assets.xcassets */,
-				7BE3B1701C9F3B5F004370B2 /* LaunchScreen.storyboard */,
-				7BE3B1731C9F3B5F004370B2 /* Info.plist */,
+				7BE3B1A31C9F3D13004370B2 /* Classes */,
 				7BE3B1621C9F3B5F004370B2 /* Supporting Files */,
 			);
 			path = SKScrollNavigationBarDemo;
@@ -121,7 +121,7 @@
 		7BE3B1621C9F3B5F004370B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7BE3B1631C9F3B5F004370B2 /* main.m */,
+				7BE3B1BA1C9F3F8E004370B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,10 +147,57 @@
 		7BE3B1951C9F3B67004370B2 /* SKScrollNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				7BE3B1991C9F3BBB004370B2 /* SKScrollNavigationBar.h */,
-				7BE3B19A1C9F3BBB004370B2 /* SKScrollNavigationBar.m */,
+				7BE3B1AF1C9F3E9C004370B2 /* SKScrollNavigationBar.h */,
+				7BE3B1B01C9F3E9C004370B2 /* SKScrollNavigationBar.m */,
 			);
 			name = SKScrollNavigationBar;
+			sourceTree = "<group>";
+		};
+		7BE3B1A21C9F3CC1004370B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3B1A01C9F3CAF004370B2 /* UIKit.framework */,
+				7BE3B19E1C9F3CA4004370B2 /* CoreGraphics.framework */,
+				7BE3B19C1C9F3C96004370B2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BE3B1A31C9F3D13004370B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3B1A41C9F3D37004370B2 /* Delegate */,
+				7BE3B1951C9F3B67004370B2 /* SKScrollNavigationBar */,
+				7BE3B1A51C9F3D48004370B2 /* Demo */,
+				7BE3B1A61C9F3D57004370B2 /* Others */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7BE3B1A41C9F3D37004370B2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3B1AC1C9F3E92004370B2 /* AppDelegate.h */,
+				7BE3B1AD1C9F3E92004370B2 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		7BE3B1A51C9F3D48004370B2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3B1A71C9F3E7E004370B2 /* ViewController.h */,
+				7BE3B1A81C9F3E7E004370B2 /* ViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		7BE3B1A61C9F3D57004370B2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3B1AA1C9F3E88004370B2 /* main.m */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,9 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE3B1721C9F3B5F004370B2 /* LaunchScreen.storyboard in Resources */,
+				7BE3B1BB1C9F3F8E004370B2 /* Info.plist in Resources */,
 				7BE3B16F1C9F3B5F004370B2 /* Assets.xcassets in Resources */,
-				7BE3B16D1C9F3B5F004370B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE3B16A1C9F3B5F004370B2 /* ViewController.m in Sources */,
-				7BE3B19B1C9F3BBB004370B2 /* SKScrollNavigationBar.m in Sources */,
-				7BE3B1671C9F3B5F004370B2 /* AppDelegate.m in Sources */,
-				7BE3B1641C9F3B5F004370B2 /* main.m in Sources */,
+				7BE3B1B11C9F3E9C004370B2 /* SKScrollNavigationBar.m in Sources */,
+				7BE3B1AB1C9F3E88004370B2 /* main.m in Sources */,
+				7BE3B1A91C9F3E7E004370B2 /* ViewController.m in Sources */,
+				7BE3B1AE1C9F3E92004370B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,25 +366,6 @@
 			targetProxy = 7BE3B1841C9F3B5F004370B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7BE3B16B1C9F3B5F004370B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BE3B16C1C9F3B5F004370B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7BE3B1701C9F3B5F004370B2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BE3B1711C9F3B5F004370B2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7BE3B18A1C9F3B5F004370B2 /* Debug */ = {
