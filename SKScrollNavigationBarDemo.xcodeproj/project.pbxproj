@@ -15,6 +15,7 @@
 		7BE3B1721C9F3B5F004370B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3B1701C9F3B5F004370B2 /* LaunchScreen.storyboard */; };
 		7BE3B17D1C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B17C1C9F3B5F004370B2 /* SKScrollNavigationBarDemoTests.m */; };
 		7BE3B1881C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B1871C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.m */; };
+		7BE3B19B1C9F3BBB004370B2 /* SKScrollNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3B19A1C9F3BBB004370B2 /* SKScrollNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7BE3B1831C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKScrollNavigationBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE3B1871C9F3B5F004370B2 /* SKScrollNavigationBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScrollNavigationBarDemoUITests.m; sourceTree = "<group>"; };
 		7BE3B1891C9F3B5F004370B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE3B1991C9F3BBB004370B2 /* SKScrollNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKScrollNavigationBar.h; path = SKScrollNavigationBar/SKScrollNavigationBar.h; sourceTree = "<group>"; };
+		7BE3B19A1C9F3BBB004370B2 /* SKScrollNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKScrollNavigationBar.m; path = SKScrollNavigationBar/SKScrollNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7BE3B1611C9F3B5F004370B2 /* SKScrollNavigationBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7BE3B1951C9F3B67004370B2 /* SKScrollNavigationBar */,
 				7BE3B1651C9F3B5F004370B2 /* AppDelegate.h */,
 				7BE3B1661C9F3B5F004370B2 /* AppDelegate.m */,
 				7BE3B1681C9F3B5F004370B2 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				7BE3B1891C9F3B5F004370B2 /* Info.plist */,
 			);
 			path = SKScrollNavigationBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		7BE3B1951C9F3B67004370B2 /* SKScrollNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3B1991C9F3BBB004370B2 /* SKScrollNavigationBar.h */,
+				7BE3B19A1C9F3BBB004370B2 /* SKScrollNavigationBar.m */,
+			);
+			name = SKScrollNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BE3B16A1C9F3B5F004370B2 /* ViewController.m in Sources */,
+				7BE3B19B1C9F3BBB004370B2 /* SKScrollNavigationBar.m in Sources */,
 				7BE3B1671C9F3B5F004370B2 /* AppDelegate.m in Sources */,
 				7BE3B1641C9F3B5F004370B2 /* main.m in Sources */,
 			);
